@@ -7,6 +7,7 @@ function EmployeeDetails(){
 
     var Bonus=function(amt){
         salary=salary+10*amt;
+        return salary;
     }
 
     return{
