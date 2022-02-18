@@ -14,7 +14,7 @@ const data = {
       printVal();
     }
   });
-  // attaching the event listener on keyup events
+
   el.addEventListener('keyup', (event) => {
     data.prop = event.target.value;
   });
